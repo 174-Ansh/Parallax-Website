@@ -1,0 +1,76 @@
+body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: lato, sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color:#050505;
+    
+}
+.pimg1{
+    background-image: url(images/photo-web1.avif);
+    min-height: 100vh;
+
+    position:relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pimg2{
+    background-image: url(images/photo-web2.avif);
+    min-height: 100vh;
+}
+.pimg3{
+    background-image: url(images/photo-web3.webp);
+    min-height: 100vh;
+}
+.pimg1, .pimg2, .pimg3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #050000;
+    font-size: 27px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.textbg1{
+    background-color: #e4a0a0;
+    color: #3f0505;
+    padding: 10px  16px;
+    font-size: 20px;
+}
+.textbg2{
+    background-color: #d4dd58;
+    color: #c56414;
+    padding: 10px  16px;
+    font-size: 20px;
+}
+.textbg3{
+    background-color: #d4afc2;
+    color: #3ab42f;
+    padding: 10px  16px;
+    font-size: 20px;
+}
+
+
+.section-text1{
+    background-color: #b99b9b;
+    color:#3f0505;
+}
+.section-text2{
+    background-color: #d4dd58;
+    color: #c56414;
+}
+.section-text3{
+    background-color: #d4afc2;
+    color: #3ab42f;
+}
